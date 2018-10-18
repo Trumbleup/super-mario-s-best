@@ -1,0 +1,40 @@
+body {
+	background-color: #02749F;
+	font-family: 'Georgia', serif;
+}
+
+
+#header {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+#instructions {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+#games-container {
+	width: 900px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.cover-container {
+	margin: 20px;
+}
+
+.cover-container :hover {
+	cursor: pointer;
+	transition: transform 0.5s;
+	transform: scale(1.1, 1.1)
+}
+
+
+.game-cover {
+		height: 350px;
+		width: 250px;
+	}
